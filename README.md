@@ -1,9 +1,10 @@
 # Mail
-Kirim E Mail menggunakan Nodemailer dengan POST API di Node js(Express)
+Send email with nodeemailer in Node js(Express)
 
 ### POST Request
 **/api/mail**<br />
-JSON CONTENT:<br />
+header: auth<br />
+JSON Request:<br />
 {<br />
 to:<br />
 sub:<br />
@@ -15,7 +16,3 @@ text:<br />
 - Express js
 - Nodemailer
 - heroku
-
-### Prerequisites
-- express
-- nodemailer
