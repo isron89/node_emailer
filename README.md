@@ -1,9 +1,9 @@
 # Mail
-Send email with nodeemailer in Node js(Express)
+Send email with nodemailer in Node js(Express)
 
 ### POST Request
 **/api/mail**<br />
-header: auth<br />
+Header: auth<br />
 JSON Body:<br />
 {<br />
 to:<br />
