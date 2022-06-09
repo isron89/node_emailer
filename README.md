@@ -3,7 +3,8 @@ Send email with nodemailer in Node js(Express)
 
 ### POST Request
 **/api/mail**<br />
-Header: auth<br />
+Header: <br />
+auth<br />
 JSON Body:<br />
 {<br />
 to:<br />
@@ -15,4 +16,4 @@ text:<br />
 - Node js 
 - Express js
 - Nodemailer
-- heroku
+- Heroku
